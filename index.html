@@ -1,1 +1,98 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boba Tea Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #FFD1DC;
+    }
+
+    header {
+      background-color: #87CEEB;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #FFB6C1;
+      padding: 10px;
+    }
+
+    nav a {
+      color: #000000;
+      text-decoration: none;
+      padding: 5px;
+    }
+
+    nav a:hover {
+      background-color: #FFD1DC;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .menu-item {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #87CEEB;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Boba Tea Shop</h1>
+  </header>
+  <nav>
+    <a href="#home" aria-label="Home">Home</a>
+    <a href="#menu" aria-label="Menu">Menu</a>
+    <a href="#locations" aria-label="Locations">Locations</a>
+  </nav>
+  <main>
+    <h2 id="menu" aria-label="Menu">Menu</h2>
+    <div class="menu-item" role="listitem">
+      <h3>Classic Milk Tea</h3>
+      <p>A creamy blend of black tea and milk, topped with chewy tapioca pearls.</p>
+      <ul role="list">
+        <li>Black tea</li>
+        <li>Milk</li>
+        <li>Tapioca pearls</li>
+      </ul>
+    </div>
+    <div class="menu-item" role="listitem">
+      <h3>Honeydew Milk Tea</h3>
+      <p>Sweet honeydew melon flavor combined with creamy milk tea and tapioca pearls.</p>
+      <ul role="list">
+        <li>Honeydew melon</li>
+        <li>Black tea</li>
+        <li>Milk</li>
+        <li>Tapioca pearls</li>
+      </ul>
+    </div>
+    <div class="menu-item" role="listitem">
+      <h3>Matcha Green Tea</h3>
+      <p>A delicate matcha green tea flavor, topped with chewy tapioca pearls.</p>
+      <ul role="list">
+        <li>Matcha green tea</li>
+        <li>Tapioca pearls</li>
+      </ul>
+    </div>
+  </main>
+  <footer>
+    <p id="locations" aria-label="Locations">Locations:</p>
+    <ul role="list">
+      <li>123 Main St, Anytown USA</li>
+      <li>456 Elm St, Anytown USA</li>
+    </ul>
+    <p aria-label="Contact Us">Contact us: (123) 456-7890</p>
+  </footer>
+</body>
+</html>
